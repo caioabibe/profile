@@ -1,0 +1,100 @@
+body {
+  background: #f7fbf7;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 300;
+  color: #484848;
+  font-size: 15px;
+  line-height: 1.2em;
+  /*width: 900px;*/
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #1871b5;
+}
+
+.card {
+  background: rgba(246,246,246,0.9) ;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.1);
+}
+
+div {
+  display: block;
+}
+
+@media (max-width: 3000px) {
+   /*For a screen < 960px, this CSS will be read*/
+  .container {
+    width: 750px;
+    margin: 30px auto;
+}
+
+@media (max-width: 960px) {
+   /*For a screen < 960px, this CSS will be read*/
+  .container {
+    width: 700px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 30px auto;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-top {
+  vertical-align: top;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+}
+
+table p {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: rgba(24,24,24,0.9);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#avatar-rounded {
+  border-radius: 90%;
+  text-align: start;
+  border: 2px solid rgba(230,230,230,0.9);
+}
+
+.img-rounded {
+  border-radius: 5px;
+}
